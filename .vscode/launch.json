@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Script Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "exec",
+                "C:/Users/adhok/.dotnet/tools/.store/dotnet-script/0.53.0/dotnet-script/0.53.0/tools/netcoreapp3.1/any/dotnet-script.dll",
+                "${file}"
+            ],
+            "cwd": "${fileDirname}",
+            "stopAtEntry": true
+        },
+        {
+            "name": "NodeJS",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "stopOnEntry": true,
+            "args": [],
+            "cwd": "${fileDirname}",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        }
+    ]
+}
