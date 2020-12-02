@@ -10,9 +10,9 @@ _______________
 ### Challenge : https://adventofcode.com/2020/day/1 
 Array traversal
 ### Solutions
-- [JS - Jupyter notebook](./day1/js-01.ipynb)
-- [C# - Jupyter notebook](./day1/cs-01.ipynb)
-- [Python - Jupyter notebook](./day1/py-01.ipynb)
-- [Julia - Pluto.jl notebook](./day1/jl-01.jl)
+- [JS - Jupyter notebook](./Day1/js-01.ipynb)
+- [C# - Jupyter notebook](./Day1/cs-01.ipynb)
+- [Python - Jupyter notebook](./Day1/py-01.ipynb)
+- [Julia - Pluto.jl notebook](./Day1/jl-01.jl)
 
 _______________
