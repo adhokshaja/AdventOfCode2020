@@ -27,3 +27,14 @@ Array traversal
 - [Julia - Pluto.jl notebook](./Day2/jl-02.jl)
 
 _______________
+
+## Day 3
+### Challenge : https://adventofcode.com/2020/day/2 
+Array traversal
+### Solutions
+- [JS - NodeJS](./Day3/js-03.js)
+- [C# - LinqPad](./Day3/cs-03.linq)
+- [Python - Jupyter notebook](./Day3/py-03.ipynb)
+- [Julia - Pluto.jl notebook](./Day3/jl-03.jl)
+
+_______________
