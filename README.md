@@ -60,3 +60,13 @@ _______________
 <!-- - [Julia - Pluto.jl notebook](./Day5/jl-05.jl) -->
 
 _______________
+
+## Day 6
+### Challenge : https://adventofcode.com/2020/day/6 
+
+### Solutions
+- [JS - NodeJS](./Day6/js-06.js)
+<!-- - [C# - LinqPad](./Day6/cs-06.linq) -->
+<!-- - [Python - Jupyter notebook](./Day6/py-06.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day6/jl-06.jl) -->
+
