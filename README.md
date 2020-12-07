@@ -19,7 +19,7 @@ _______________
 
 ## Day 2
 ### Challenge : https://adventofcode.com/2020/day/2 
-Array traversal
+
 ### Solutions
 - [JS - Jupyter notebook](./Day2/js-02.ipynb)
 - [C# - Jupyter notebook](./Day2/cs-02.ipynb)
@@ -29,8 +29,8 @@ Array traversal
 _______________
 
 ## Day 3
-### Challenge : https://adventofcode.com/2020/day/2 
-Array traversal
+### Challenge : https://adventofcode.com/2020/day/3 
+
 ### Solutions
 - [JS - NodeJS](./Day3/js-03.js)
 - [C# - LinqPad](./Day3/cs-03.linq)
