@@ -1,8 +1,8 @@
 # AdventOfCode2020
 Repository for Advent of Code 2020 Advent calendar of programming challenges. More at https://adventofcode.com/2020/about
 
-This repository contains implementations in C#, JavaScript, Python and [Julia](https://julialang.org/). Most C#, Python and JS code is presented here as Jupyter Notebooks and Julia code as [Pulto.jl Notebooks](https://github.com/fonsp/Pluto.jl).
-There might be some Javascript also presented as raw JS files and some C# presented as [LinqPad](https://www.linqpad.net/) or C# script files.
+This repository contains solutions in C#, JavaScript, Python and [Julia](https://julialang.org/). Most C#, Python and JS code is presented here as Jupyter Notebooks and Julia code as [Pulto.jl Notebooks](https://github.com/fonsp/Pluto.jl).
+There might be some Javascript also presented as raw JS files and some C# presented as [LinqPad](https://www.linqpad.net/) or [C# script files](https://github.com/filipw/dotnet-script).
 
 _______________
 
@@ -30,7 +30,7 @@ _______________
 
 ## Day 3
 ### Challenge : https://adventofcode.com/2020/day/3 
-
+Currying implementation in JS, C# & Julia
 ### Solutions
 - [JS - NodeJS](./Day3/js-03.js)
 - [C# - LinqPad](./Day3/cs-03.linq)
