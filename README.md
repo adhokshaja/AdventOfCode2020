@@ -48,3 +48,15 @@ _______________
 <!-- - [Python - Jupyter notebook](./Day4/py-04.ipynb) -->
 <!-- - [Julia - Pluto.jl notebook](./Day4/jl-04.jl) -->
 
+_______________
+
+## Day 5
+### Challenge : https://adventofcode.com/2020/day/5 
+
+### Solutions
+- [JS - NodeJS](./Day5/js-05.js)
+<!-- - [C# - LinqPad](./Day5/cs-05.linq) -->
+<!-- - [Python - Jupyter notebook](./Day5/py-05.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day5/jl-05.jl) -->
+
+_______________
