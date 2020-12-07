@@ -2,8 +2,6 @@
 have a shiny gold bag
 how many colors can, eventually, contain at least one shiny gold bag?
 */
-const AllAnswers = new Set("abcdefghijklmnopqrstuvwxyz".split(""));
-
 const fs = require("fs");
 const input = fs
   .readFileSync("./input.txt", (_, a) => a)
