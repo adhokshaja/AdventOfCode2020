@@ -78,7 +78,7 @@ _______________
 ### Solutions
 - [JS - NodeJS](./Day7/js-07.js)
 - [C# - C# Script](./Day7/cs-07.csx)
-<!-- - [Python - Jupyter notebook](./Day7/py-07.ipynb) -->
+- [Python - Jupyter notebook](./Day7/py-07.ipynb)
 <!-- - [Julia - Pluto.jl notebook](./Day7/jl-07.jl) -->
 
 _______________
