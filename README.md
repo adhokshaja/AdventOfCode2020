@@ -103,7 +103,7 @@ _______________
 
 ### Solutions
 - [JS - Jupyter Notebook](./Day9/js-09.ipynb)
-<!-- - [C# - C# Script](./Day9/cs-09.csx) -->
+- [C# - C# Script](./Day9/cs-09.csx)
 <!-- - [Python - Jupyter notebook](./Day9/py-09.ipynb) -->
 <!-- - [Julia - Pluto.jl notebook](./Day9/jl-09.jl) -->
 
