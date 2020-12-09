@@ -90,8 +90,21 @@ _______________
 
 ### Solutions
 - [JS - NodeJS](./Day8/js-08.js)
-<!-- - [C# - C# Script](./Day7/cs-07.csx) -->
-<!-- - [Python - Jupyter notebook](./Day7/py-07.ipynb) -->
-<!-- - [Julia - Pluto.jl notebook](./Day7/jl-07.jl) -->
+<!-- - [C# - C# Script](./Day9/cs-09.csx) -->
+<!-- - [Python - Jupyter notebook](./Day9/py-09.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day9/jl-09.jl) -->
+
+_______________
+
+
+## Day9
+
+### Challenge : https://adventofcode.com/2020/day/9 
+
+### Solutions
+- [JS - Jupyter Notebook](./Day9/js-09.ipynb)
+<!-- - [C# - C# Script](./Day9/cs-09.csx) -->
+<!-- - [Python - Jupyter notebook](./Day9/py-09.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day9/jl-09.jl) -->
 
 _______________
