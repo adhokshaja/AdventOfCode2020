@@ -108,3 +108,15 @@ _______________
 <!-- - [Julia - Pluto.jl notebook](./Day9/jl-09.jl) -->
 
 _______________
+
+## Day10
+
+### Challenge : https://adventofcode.com/2020/day/10 
+Climbing stairs-esque problem. Explanation of Solutions in JS
+### Solutions
+- [JS - Jupyter Notebook](./Day10/js-10.ipynb)
+<!-- - [C# - C# Script](./Day10/cs-10.csx) -->
+<!-- - [Python - Jupyter notebook](./Day9/py-09.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day9/jl-09.jl) -->
+
+_______________
