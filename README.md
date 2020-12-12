@@ -133,3 +133,15 @@ _______________
 <!-- - [Julia - Pluto.jl notebook](./Day11/jl-11.jl) -->
 
 _______________
+
+## Day12
+
+### Challenge : https://adventofcode.com/2020/day/12 
+
+### Solutions
+- [JS - NodeJS](./Day12/js-12.js)
+<!-- - [C# - C# Script](./Day12/cs-12.csx) -->
+<!-- - [Python - Jupyter notebook](./Day12/py-12.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day12/jl-12.jl) -->
+
+_______________
