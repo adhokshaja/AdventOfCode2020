@@ -116,7 +116,20 @@ Climbing stairs-esque problem. Explanation of Solutions in JS
 ### Solutions
 - [JS - Jupyter Notebook](./Day10/js-10.ipynb)
 <!-- - [C# - C# Script](./Day10/cs-10.csx) -->
-<!-- - [Python - Jupyter notebook](./Day9/py-09.ipynb) -->
-<!-- - [Julia - Pluto.jl notebook](./Day9/jl-09.jl) -->
+<!-- - [Python - Jupyter notebook](./Day10/py-10.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day10/jl-10.jl) -->
+
+_______________
+
+
+## Day11
+
+### Challenge : https://adventofcode.com/2020/day/11 
+
+### Solutions
+- [JS - NodeJS](./Day11/js-11.js)
+<!-- - [C# - C# Script](./Day11/cs-11.csx) -->
+<!-- - [Python - Jupyter notebook](./Day11/py-11.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day11/jl-11.jl) -->
 
 _______________

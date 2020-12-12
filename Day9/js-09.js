@@ -9,7 +9,15 @@ The two numbers will have different values, and there might be more than one suc
 What is the first number that does not have this property?
 */
 
+const fs = require("fs");
 
+const input = fs
+  .readFileSync("./input.txt", (_, a) => a)
+  .toString()
+  .split("\r\n")
+  .map((a) => parseInt(a));
+
+const PREAMBLE_LENGTH = 25;
 
 const doesHaveSum = (arr, sum) => {
   for (let i = 0; i < arr.length; i++) {
