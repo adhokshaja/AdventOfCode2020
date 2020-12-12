@@ -18,17 +18,30 @@ const input = fs
 
  
 
- /** DIRECTIONS
-  * N = 0
-  * E = 90
-  * S = 180
-  * W = 270
+ /** DIRECTIONS, DEGREES, AXES
+  * 
+  *        N = (+y) = 0
+  *             ▲
+  *             |
+  *             |
+  *  W          |            E
+  * -x ◀------- + --------▶ +x
+  * 270         |           90
+  *             |
+  *             |
+  *             |
+  *             ▼
+  *        S = (-y) = 180  
+  * 
+  * N =   0 = +y
+  * E =  90 = +x
+  * S = 180 = -y
+  * W = 270 = -x
   */
 
 
+const START_POS = [0,0]; //[EAST, NORTH] = [x,y]
 
-
-const START_POS = [0,0]; //[EAST, NORTH]
 
 
 
@@ -36,25 +49,25 @@ const START_POS = [0,0]; //[EAST, NORTH]
 const part1 = ([...input], startHeading) => {
 
   let currHeading = startHeading;
-  let [e, n] = START_POS;
+  let [x, y] = START_POS;
 
 
-  const moveForwardAtHeading = (value) => {
+  const moveForwardAtCurrHeading = (value) => {
     switch(currHeading){
       case 0: 
-        n += value;
+        y += value;
         break;
       case 90: 
-        e += value;
+        x += value;
         break;
       case 180: 
-        n -= value;
+        y -= value;
         break;
       case 270: 
-        e -= value;
+        x -= value;
         break;
       default: 
-      console.error("Unexpeted Heading");
+      console.error(`Unexpeted Heading : ${currHeading}`);
     }
   };
 
@@ -65,19 +78,19 @@ const part1 = ([...input], startHeading) => {
 
       case "N":
         // Action N means to move north by the given value.
-        n += value;
+        y += value;
         break;
       case "S":
         // Action S means to move south by the given value.
-        n -= value;
+        y -= value;
         break;
       case "E":
         // Action E means to move east by the given value.
-        e += value;
+        x += value;
         break;
       case "W":
         // Action W means to move west by the given value.
-        e -= value;
+        x -= value;
         break;
 
       case "L":
@@ -91,19 +104,19 @@ const part1 = ([...input], startHeading) => {
 
       case "F":
         //  Action F means to move forward by the given value in the direction the ship is currently facing.
-        moveForwardAtHeading(value);
+        moveForwardAtCurrHeading(value);
         break;
 
 
       default:
-        console.error("Unexpected");
+        console.error(`Unexpected Action : {action}`);
         break;
     }
   }
 
   return {
-    pos: [e, n],
-    ManhattenDistance: Math.abs(n - START_POS[0]) + Math.abs(e - START_POS[1]),
+    pos: [x, y],
+    ManhattenDistance: Math.abs(y - START_POS[0]) + Math.abs(x - START_POS[1]),
   };
 };
 
@@ -115,27 +128,28 @@ console.log("Part1", part1(input, START_HEADING));
 
 
 
-const part2 = ([...input], wayPoint) => {
-  let currHeading = START_HEADING;
-  let [e, n] = START_POS;
-  let [way_e,way_n] = wayPoint;
+const part2 = ([...input], wayPointLocation) => {
 
-  const applyRotation = (rotation)=>{
+  let [way_x, way_y] = wayPointLocation;
+  let [x, y] = START_POS;
+  
+
+  const rotateWayPoint = (deg)=>{
   // Assumes rotation is clockwise
-  switch (rotation) {
+  switch (deg) {
     case 0:
       break;
     case 90:
-      [way_e, way_n] = [way_n, -way_e];
+      [way_x, way_y] = [way_y, -way_x];
       break;
     case 180:
-      [way_e, way_n] = [-way_e, -way_n];
+      [way_x, way_y] = [-way_x, -way_y];
       break;
     case 270:
-      [way_e, way_n] = [-way_n, way_e];
+      [way_x, way_y] = [-way_y, way_x];
       break;
     default:
-      console.log("Unexpected rotation");
+      console.log(`Unexpected rotation degs: ${deg}`);
   }
 }
 
@@ -143,45 +157,45 @@ const part2 = ([...input], wayPoint) => {
     switch (action) {
       case "N":
         //Action N means to move the waypoint north by the given value.
-        way_n += value;
+        way_y += value;
         break;
       case "S":
         //Action S means to move the waypoint south by the given value.
-        way_n -= value;
+        way_y -= value;
         break;
       case "E":
         //Action E means to move the waypoint east by the given value.
-        way_e += value;
+        way_x += value;
         break;
       case "W":
         // Action W means to move the waypoint west by the given value.
-        way_e -= value;
+        way_x -= value;
         break;
 
       case "F":
         // Action F means to move forward to the waypoint a number of times equal to the given value.
-        e += way_e * value;
-        n += way_n * value;
+        x += way_x * value;
+        y += way_y * value;
         break;
 
       case "L":
         // Action L means to rotate the waypoint around the ship left (counter-clockwise) the given number of degrees.
-        applyRotation((360-value)%360);
+        rotateWayPoint((360-value)%360);
         break;
       case "R":
         // Action R means to rotate the waypoint around the ship right (clockwise) the given number of degrees.
-        applyRotation(value);
+        rotateWayPoint(value);
         break;
 
       default:
-        console.error("Unexpected");
+         console.error(`Unexpected Action : {action}`);
         break;
     }
   }
 
   return {
-    pos: [e,n],
-    ManhattenDistance: Math.abs(e- START_POS[0]) + Math.abs(n - START_POS[1]),
+    pos: [x,y],
+    ManhattenDistance: Math.abs(x- START_POS[0]) + Math.abs(y - START_POS[1]),
   };
 };
 
