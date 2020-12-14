@@ -76,10 +76,10 @@ function GCD (n1, n2, ...others){
 
 
 /**
- * Chinese Reminder Theorem - Solve system of Congruent Equations using  
+ * Chinese Reminder Theorem - Solve system of Congruences using  
  * @param {[{mod:Number,rem:number}]} eqns Representation of the system of congrugencies
  */
-function solveSimultaneousCongrugencies(eqns){
+function solveSimultaneousCongruences(eqns){
 
   const eqns_sorted = eqns.sort((a,b)=> b.mod - a.mod);
 
@@ -125,9 +125,9 @@ const part2 = ([...input]) => {
     
   }
 
- console.log(`The answer "t" is the solution to the simultaneous congrugencies : \n${subsequentShuttles.map(a => `t ≡ ${a.lagTime} (mod ${a.shuttle})`).join("\n")}`);
+ console.log(`The answer "t" is the solution to the simultaneous congruencies : \n${subsequentShuttles.map(a => `t ≡ ${a.lagTime} (mod ${a.shuttle})`).join("\n")}`);
 
-  const timeStamp = solveSimultaneousCongrugencies(subsequentShuttles.map( a=> {return {rem:a.lagTime, mod:a.shuttle}}))
+  const timeStamp = solveSimultaneousCongruences(subsequentShuttles.map( a=> {return {rem:a.lagTime, mod:a.shuttle}}))
 
   return timeStamp;
 };
