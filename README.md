@@ -145,3 +145,17 @@ _______________
 <!-- - [Julia - Pluto.jl notebook](./Day12/jl-12.jl) -->
 
 _______________
+
+
+## Day13
+
+### Challenge : https://adventofcode.com/2020/day/13 
+JS Jupyter Notebook has an explanation of the 
+### Solutions
+- [JS - NodeJS](./Day13/js-13.js)
+- [JS - Jupyter Notebook](./Day13/js-13.ipynb)
+<!-- - [C# - C# Script](./Day13/cs-13.csx) -->
+<!-- - [Python - Jupyter notebook](./Day13/py-13.ipynb) -->
+- [Julia - Pluto.jl notebook](./Day13/jl-13.jl)
+
+_______________
