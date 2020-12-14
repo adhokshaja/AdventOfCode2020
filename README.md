@@ -150,12 +150,25 @@ _______________
 ## Day13
 
 ### Challenge : https://adventofcode.com/2020/day/13 
-JS Jupyter Notebook has an explanation of the 
+JS Jupyter Notebook has an explanation of the process for simultaneous congruency.
 ### Solutions
 - [JS - NodeJS](./Day13/js-13.js)
 - [JS - Jupyter Notebook](./Day13/js-13.ipynb)
 <!-- - [C# - C# Script](./Day13/cs-13.csx) -->
 <!-- - [Python - Jupyter notebook](./Day13/py-13.ipynb) -->
 - [Julia - Pluto.jl notebook](./Day13/jl-13.jl)
+
+_______________
+
+
+## Day14
+
+### Challenge : https://adventofcode.com/2020/day/14 
+
+### Solutions
+- [JS - NodeJS](./Day14/js-14.js)
+<!-- - [C# - C# Script](./Day14/cs-14.csx) -->
+<!-- - [Python - Jupyter notebook](./Day14/py-14.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day14/jl-14.jl) -->
 
 _______________
