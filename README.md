@@ -175,7 +175,7 @@ _______________
 
 ## Day15
 ### Challenge : https://adventofcode.com/2020/day/15 
-
+Using Generators in JS Jupyter notebook solution
 ### Solutions
 - [JS - NodeJS](./Day15/js-15.js)
 <!-- - [C# - C# Script](./Day15/cs-15.csx) -->
