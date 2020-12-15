@@ -178,6 +178,7 @@ _______________
 Using Generators in JS Jupyter notebook solution
 ### Solutions
 - [JS - NodeJS](./Day15/js-15.js)
+- [JS - Jupyter Notebook](./Day15/js-15.ipynb)
 <!-- - [C# - C# Script](./Day15/cs-15.csx) -->
 <!-- - [Python - Jupyter notebook](./Day15/py-15.ipynb) -->
 <!-- - [Julia - Pluto.jl notebook](./Day15/jl-15.jl) -->
