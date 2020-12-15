@@ -13,7 +13,7 @@ const input = fs
 
 
 /**
- * Enumerates rules and returns the number at the stopAt sign
+ * Enumerates rules and returns the number at the stopAt turn
  * @param {[Number]} input Starting Set of Numbers
  * @param {Number} stopAt  Number at which to stop the iterations
  * @returns Value when stopped
@@ -54,7 +54,7 @@ console.timeEnd("Part1 - bruteForce algo");
 console.log("Part1 - BF: ", p1_bf);
 
 /**
- * Enumerates rules and returns the number at the stopAt sign
+ * Enumerates rules and returns the number at the stopAt turn
  * @param {[Number]} input Starting Set of Numbers
  * @param {Number} stopAt  Number at which to stop the iterations
  * @returns Value when stopped
