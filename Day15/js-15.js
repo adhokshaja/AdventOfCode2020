@@ -18,7 +18,7 @@ const input = fs
  * @param {Number} stopAt  Number at which to stop the iterations
  * @returns Value when stopped
  * @description Uses a Naive loop and array based approach with costly lookups. 
- * Works well for small inputs. Speaking a number is easy : just add it to the array. The array is a dictionary i:turn number and the spoken number
+ * Works well for small stopAt values. Speaking a number is easy : just add it to the array. The array is a dictionary i:turn number and the spoken number
  */
 const enumerateByRule_bruteforce = ([...input],stopAt) => {
   const spoken = [];
