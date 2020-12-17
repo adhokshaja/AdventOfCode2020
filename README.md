@@ -184,3 +184,14 @@ Using Generators in JS Jupyter notebook solution
 <!-- - [Julia - Pluto.jl notebook](./Day15/jl-15.jl) -->
 
 _______________
+
+## Day16
+### Challenge : https://adventofcode.com/2020/day/16 
+
+### Solutions
+- [JS - NodeJS](./Day16/js-16.js)
+<!-- - [C# - C# Script](./Day16/cs-16.csx) -->
+<!-- - [Python - Jupyter notebook](./Day16/py-16.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day16/jl-16.jl) -->
+
+_______________
