@@ -206,3 +206,15 @@ _______________
 <!-- - [Julia - Pluto.jl notebook](./Day17/jl-17.jl) -->
 
 _______________
+
+
+## Day18
+### Challenge : https://adventofcode.com/2020/day/18 
+
+### Solutions
+<!-- - [JS - NodeJS](./Day18/js-18.js) -->
+<!-- - [C# - C# Script](./Day18/cs-18.csx) -->
+- [Python - Jupyter notebook](./Day18/py-18.ipynb)
+<!-- - [Julia - Pluto.jl notebook](./Day18/jl-18.jl) -->
+
+_______________
