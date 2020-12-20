@@ -218,3 +218,16 @@ _______________
 <!-- - [Julia - Pluto.jl notebook](./Day18/jl-18.jl) -->
 
 _______________
+
+
+## Day19
+### Challenge : https://adventofcode.com/2020/day/19 
+Kinda hacky code for part 2 in JS. In hindsight, using Regex might not have been the best approach to begin with.
+The change to rule 11 makes this no longer a Type 3 Grammar (Regular), but a Type 2 Grammar (Context-free).
+### Solutions
+- [JS - NodeJS](./Day19/js-19.js)
+<!-- - [C# - C# Script](./Day19/cs-19.csx) -->
+<!-- - [Python - Jupyter notebook](./Day19/py-19.ipynb) -->
+<!-- - [Julia - Pluto.jl notebook](./Day19/jl-19.jl) -->
+
+_______________
